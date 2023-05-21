@@ -14,8 +14,6 @@ app.use("/", userRoute);
 
 const adminRoute = require("./routes/admin");
 app.use("/admin", adminRoute);
-    
-
 
 app.listen(port,()=>{
   console.log("server is running at "+port);
